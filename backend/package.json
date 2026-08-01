@@ -1,0 +1,17 @@
+{
+  "name": "notes-backend",
+  "version": "1.0.0",
+  "description": "Express backend for the notes app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "mongoose": "^8.10.0"
+  }
+}
